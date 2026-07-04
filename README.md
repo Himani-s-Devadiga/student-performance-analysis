@@ -1,28 +1,21 @@
 # student-performance-analysis
 Exploratory Data Analysis on student performance dataset to identify factors affecting academic scores and at-risk students.
 🎓 Student Performance Analysis (EDA Project)
+📊 Project Overview
 
-📌 Project Overview
+This project performs Exploratory Data Analysis (EDA) on student academic performance data to identify key factors influencing grades and to detect at-risk students.
+The goal is to support data-driven decision-making in education systems.
 
-This project is an Exploratory Data Analysis (EDA) of student performance data. The objective is to identify key factors that influence academic scores and detect at-risk students using data-driven insights.
-
-🎯 Problem Statement
-
-A school wants to analyze student performance data to:
-
-Understand factors affecting grades
-Identify at-risk students
-Improve academic performance using insights
 📁 Dataset
 Source: Kaggle – Students Performance in Exams
-1000 student records
+Contains student demographic and academic records
 Features include:
 Gender
 Race/Ethnicity
-Parental education level
-Lunch type
-Test preparation course
-Math, Reading, Writing scores
+Parental Education Level
+Lunch Type
+Test Preparation Course
+Math, Reading, Writing Scores
 🛠 Tools Used
 Python
 Pandas
@@ -30,39 +23,31 @@ NumPy
 Matplotlib
 Seaborn
 Google Colab
-🔄 Project Workflow
-Data loading and exploration
-Data cleaning and preprocessing
-Feature engineering (Total Score, Average Score)
-Factor analysis (parental education, test prep, gender, etc.)
-Data visualization (6+ charts)
-At-risk student segmentation
-📊 Key Insights
-Students who completed test preparation scored higher across all subjects
-Parental education level positively impacts student performance
-Reading and writing scores are strongly correlated
+🎯 Objectives
+Analyze factors affecting student performance
+Identify patterns in academic scores
+Detect at-risk students (low performers)
+Generate actionable insights for improvement
+📈 Key Insights
+Students who completed test preparation performed better across all subjects
+Parental education level has a positive impact on academic performance
+Reading and writing scores show strong correlation
 Female students perform better in reading and writing
-A significant number of students fall into the at-risk category
-🚨 At-Risk Students
-
-Students scoring below 50 in any subject are considered at-risk.
-These students require academic support and intervention.
-
+A noticeable percentage of students fall into the at-risk category
+📊 Visualizations
+Box plots (Parental education vs scores)
+Bar charts (Test preparation impact)
+Heatmap (Correlation between subjects)
+Scatter plot (Reading vs Math scores)
+Histogram (Score distribution)
 💡 Recommendations
 Introduce structured test preparation programs
-Provide extra support for at-risk students
-Encourage parental involvement in academics
+Provide academic support for at-risk students
+Increase parental engagement in student learning
 Focus on improving mathematics performance
-📈 Visualizations
-Box Plot: Parental Education vs Scores
-Bar Chart: Test Preparation Impact
-Heatmap: Correlation between subjects
-Scatter Plot: Reading vs Math
-Histogram: Total Score Distribution
-Grouped Bar Chart: Gender vs Performance
 🧠 Conclusion
 
-This project highlights how demographic and academic factors influence student performance. The insights can help schools take targeted actions to improve learning outcomes.
+This analysis highlights the key factors affecting student performance and provides actionable insights that can help improve academic outcomes using data-driven strategies.
 
 👩‍💻 Author
 
